@@ -57,7 +57,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center text-white text-lg p-6">
               <div className="max-w-xl">
                 <h2 className="text-2xl font-semibold mb-4">The Impact of Bitcoin on the Financial World</h2>
-                <p>Bitcoin is a decentralized digital currency without a central authority or banks. Invented in 2008 by an unknown person or group of people under the pseudonym Satoshi Nakamoto, Bitcoin operates on a peer-to-peer network. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin offers the possibility of financial independence and privacy while enabling secure peer-to-peer transactions. Over the years, Bitcoin's value has seen dramatic fluctuations, yet it remains a cornerstone of the cryptocurrency movement, impacting the financial world and the broader digital economy.</p>
+                <p>Bitcoin is a decentralized digital currency without a central authority or banks. Invented in 2008 by an unknown person or group of people under the pseudonym Satoshi Nakamoto, Bitcoin operates on a peer-to-peer network. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin offers the possibility of financial independence and privacy while enabling secure peer-to-peer transactions. Over the years, Bitcoin&apos;s value has seen dramatic fluctuations, yet it remains a cornerstone of the cryptocurrency movement, impacting the financial world and the broader digital economy.</p>
               </div>
             </div>
           </CardContent>
@@ -111,7 +111,7 @@ export default function Home() {
           onClick={handleHello} 
           className="flex justify-center items-center h-12  bg-orange-600 cursor-pointer  text-white font-bold text-lg"
         >
-          {loading ? <Spinner /> : <span>Click Me!</span>}
+          {loading ? <Spinner /> : <span>{data ? data : 'Click Me!'}</span>}
         </div>
       </div>
     </>
