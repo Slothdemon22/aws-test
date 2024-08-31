@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import User from "@/app/models/user";
 import connectdb from "@/connectdb/connectdb";
+
 export const POST = async (req: Request) => {
   try {
     // Parse the request body
