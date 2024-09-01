@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="h-screen w-full flex justify-center">
+      <main className="h-screen w-full bg-blue-100 flex justify-center">
         <section className="w-[90%] h-[100%] m-4 mb-4">
           <div className="hero-section flex flex-col items-center justify-center mt-8 md:mt-0">
             <Image
