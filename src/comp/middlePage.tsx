@@ -25,7 +25,7 @@ const MiddlePage = () => {
         ref={containerRef}
         className="flex w-full h-[50vh] rounded-lg border-4 border-dashed border-gray-300 overflow-hidden"
       >
-        <div className=" flex items-center justify-center p-4 bg-gray-400">
+        <div className="flex items-center justify-end p-4 bg-gray-400 w-1/2">
           <Image
             src="/nutricition.png"
             alt="nutriction"
@@ -36,7 +36,7 @@ const MiddlePage = () => {
             sizes="100vw"
           />
         </div>
-        <div className="w-[60%] h-full flex flex-col">
+        <div className="w-1/2 h-full flex flex-col">
           <div className="w-full h-1/2 flex items-center justify-center border-b border-gray-300 p-2">
             <Image
               src="/healthyhabits.png"
@@ -52,10 +52,10 @@ const MiddlePage = () => {
             <Image
               src="/happycustomers.png"
               alt="Second Image"
-              className="object-cover w-full h-full"
+              className="object-cover w-[80%] h-[60%] max-w-[200px] max-h-[140px]"
               quality={100}
-              width={300}
-              height={300}
+              width={200}
+              height={140}
               sizes="100vw"
             />
           </div>
