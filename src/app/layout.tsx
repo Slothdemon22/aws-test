@@ -22,7 +22,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={`${inter.className} h-screen w-full bg-blue-100 flex justify-center items-center`}>
+      <body className={`${inter.className} `}>
   {children}
 </body>
 
